@@ -1,0 +1,237 @@
+body{
+    color: #444;
+    font-family: "微軟正黑體";
+}
+h3{
+    font-weight: bold;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+a:hover{
+    color: #c92929;
+}
+.ft-1{
+    color: #9a0000;
+}
+.bk-1{
+    background-color: #efefef;
+    border: none;
+    border-radius: 10px;
+}
+.bk-2{
+    background: #ccc;
+    color: #666;
+}
+.br-1{
+    border-bottom: 1px dotted #ccc;
+}
+.br-2{
+    border-bottom: 1px solid #555;
+}
+.header .alt{
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.2rem;
+}
+.header .menu{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.header .menu a{
+    color: #444;
+    text-decoration: none;
+}
+.header .menu a:hover{
+    color: #c92929;
+    border-bottom: 2px solid #c92929;
+    padding-bottom: 5px;
+}
+.b-bn{
+    border-top: 2px solid #ccc;
+}
+.main h3{
+    font-size: 1.6rem;
+}
+.main h3 .sp-1{
+    border-bottom: 2px solid #ccc;
+}
+.main .search .search-bar .in-sty1{
+    border:8px solid #ffc107;
+    border-radius: 10px;
+}
+.main .search .menu .sp-1{
+    background-color: #ffc107;
+}
+.main .search .menu{
+    font-weight: bold;
+}
+.main .recommend .t-1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.main .recommend .t-1 a{
+    color: #9a0000;
+}
+.main .recommend .t-2{
+    font-size: 0.9rem;
+}
+.main .recommend .card-body{
+    min-height: 110px;
+    font-size: 0.9rem;
+}
+.main .direction .card-body{
+    color: #efefef;
+}
+.main .direction h5{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.main .direction a{
+    color: #fff;
+}
+.main .direction a:hover{
+    color: #ff0;
+}
+.main .direction .card-body{
+    height: 120px;
+}
+.main .direction .bk-1{
+    background: url(../img/dir_bk01.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .direction .bk-2{
+    background: url(../img/dir_bk02.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .direction .bk-3{
+    background: url(../img/dir_bk03.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .direction .bk-4{
+    background: url(../img/dir_bk04.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .direction .bk-5{
+    background: url(../img/dir_bk05.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .direction .bk-6{
+    background: url(../img/dir_bk06.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .report .card-title{
+    max-height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.main .report .card-text{
+    max-height: 180px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.main .report-show{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #666;
+}
+.main .msg .card-title{
+    font-weight: bold;
+}
+.main .msg .card-title small{
+    font-size: 0.9rem;
+}
+.main .msg .card-text{
+    font-size: 1rem;
+    height: 70px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.main .god .god-name{
+    height: 70px;
+}
+.main .sponsor h5{
+    font-weight: bold;
+}
+.main .sponsor h6{
+    color: #666;
+}
+.main .sponsor .sponsor-txt{
+    height: 80px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.main .event .card-title{
+    font-weight: bold;
+}
+.main .event-menu .item{
+    color: #efefef;
+}
+.main .event-menu h5{
+    font-weight: bold;
+}
+.main .event-menu .bk-1{
+    background: url(../img/obj_bk01.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .event-menu .bk-2{
+    background: url(../img/obj_bk02.webp) no-repeat;
+    border-radius: 10px;
+}
+.main .event .card-text{
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.main .news h5{
+    font-weight: bold;
+}
+.main .news .news-txt{
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.footer{
+    color: #999;
+}
+
+.footer dt{
+    color: #fff;
+}
+.footer a{
+    color: #999;
+}
+.footer a:hover{
+    color:#ff0;
+}
+.ellipsis {
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.parent {
+    overflow:hidden;
+    position: relative;
+}
+.btn-left{
+    position: absolute;
+    left: -50px;
+}
+.btn-right{
+    position: absolute;
+    right: -50px;
+}

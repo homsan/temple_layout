@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 父<div>的样式 */
+        .parent {
+            position: relative; /* 添加相对定位 */
+            width: 720px; /* 固定宽度，容纳6个子<div> */
+            white-space: nowrap; /* 子<div>不换行 */
+            overflow: hidden; /* 隐藏溢出的子<div> */
+        }
+
+        /* 子<div>的样式 */
+        .child {
+            width: 100px; /* 子<div>的宽度 */
+            height: 100px; /* 子<div>的高度 */
+            margin-right: 10px; /* 子<div>之间的右侧间距 */
+            background-color: #ccc; /* 子<div>的背景颜色 */
+            text-align: center; /* 文字居中 */
+            line-height: 100px; /* 文字垂直居中 */
+            display: inline-block; /* 子<div>水平排列 */
+        }
+
+        /* 左侧链接样式 */
+        #left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* 右侧链接样式 */
+        #right {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- 左侧超链接 -->
+    <a href="#" id="left">Left</a>
+
+    <!-- 父<div> -->
+    <div class="parent">
+        <!-- 12个子<div>元素 -->
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+        <div class="child">10</div>
+        <div class="child">11</div>
+        <div class="child">12</div>
+    </div>
+
+    <!-- 右侧超链接 -->
+    <a href="#" id="right">Right</a>
+
+    <script>
+        var parentDiv = document.querySelector('.parent');
+        var childDivs = document.querySelectorAll('.child');
+        var visibleChildIndex = 0;
+        var leftLink = document.getElementById('left');
+        var rightLink = document.getElementById('right');
+
+        leftLink.addEventListener('click', function(e) {
+            e.preventDefault(); // 防止链接跳转
+            scrollLeft();
+        });
+
+        rightLink.addEventListener('click', function(e) {
+            e.preventDefault(); // 防止链接跳转
+            scrollRight();
+        });
+
+        function scrollLeft() {
+            if (visibleChildIndex > 0) {
+                visibleChildIndex--;
+                updateVisibility();
+            }
+        }
+
+        function scrollRight() {
+            if (visibleChildIndex < childDivs.length - 6) {
+                visibleChildIndex++;
+                updateVisibility();
+            }
+        }
+
+        function updateVisibility() {
+            for (var i = 0; i < childDivs.length; i++) {
+                if (i >= visibleChildIndex && i < visibleChildIndex + 6) {
+                    childDivs[i].style.display = 'inline-block';
+                } else {
+                    childDivs[i].style.display = 'none';
+                }
+            }
+        }
+
+        // 初始显示前6个子<div>
+        updateVisibility();
+    </script>
+</body>
+</html>
