@@ -15,6 +15,15 @@ a:hover{
 .ft-1{
     color: #9a0000;
 }
+.ft-2{
+    color: #069;
+}
+.ft-3{
+    color: #06c755;
+}
+.ft-4{
+    color: #999;
+}
 .bk-1{
     background-color: #efefef;
     border: none;
@@ -56,6 +65,9 @@ a:hover{
 }
 .main h3 .sp-1{
     border-bottom: 2px solid #ccc;
+}
+.main h3 .sp-2{
+    border-bottom: 2px solid #c92929;
 }
 .main .search .search-bar .in-sty1{
     border:8px solid #ffc107;
@@ -203,6 +215,77 @@ a:hover{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+}
+
+.temple .title{
+    font-size: 1.2rem;
+}
+.temple .title small{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.temple .title .obj-txt{
+    font-size: 0.9rem;
+}
+.temple .photo .b-photo{
+    position: relative;
+    overflow: hidden;
+}
+.temple .photo .b-photo .photo-alt{
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.temple .photo .m-photo{
+    height: 149px;
+    overflow: hidden;
+}
+.temple .temple-menu{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.temple .temple-menu a{
+    color: #444;
+    border-bottom: 2px solid #fff;
+}
+.temple .temple-menu a:hover{
+    color: #c92929;
+    border-bottom: 2px solid #c92929;
+}
+.temple .temple-about .temple-about-text{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #666;
+}
+.temple .temple-service .temple-service-text{
+    font-size: 1.1rem;
+}
+.temple .event-list{
+    font-size: 1.1rem;
+}
+.temple .news-list{
+    font-size: 1.1rem;
+}
+.temple .news-list h4{
+    font-size: 1.2rem;
+}
+.temple .news-list h6{
+    color: #999;
+}
+.temple .news-list .news-txt{
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #666;
 }
 
 .footer{
