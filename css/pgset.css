@@ -57,6 +57,11 @@ a:hover{
     border-bottom: 2px solid #c92929;
     padding-bottom: 5px;
 }
+.header .menu .active{
+    color: #c92929;
+    border-bottom: 2px solid #c92929;
+    padding-bottom: 5px;
+}
 .b-bn{
     border-top: 2px solid #ccc;
 }
@@ -216,6 +221,19 @@ a:hover{
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+.main .youtube h5{
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.main .youtube .youtube-txt{
+    color: #999;
+    font-size: 0.9rem;
+}
 
 .temple .title{
     font-size: 1.2rem;
@@ -286,6 +304,15 @@ a:hover{
     -webkit-line-clamp: 2;
     overflow: hidden;
     color: #666;
+}
+.temple-info a{
+    color: #069;
+}
+.temple-info a:hover{
+    color: #9a0000;
+}
+.temple .temple-msg-show{
+    font-size: 1.1rem;
 }
 
 .footer{
