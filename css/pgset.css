@@ -234,6 +234,12 @@ a:hover{
     color: #999;
     font-size: 0.9rem;
 }
+.main .share-menu .nav-item{
+    font-size: 1.2rem;
+}
+.main .photo .photo-alt h5{
+    font-size: 1rem;
+}
 
 .temple .title{
     font-size: 1.2rem;

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <script src="js/bootstrap.bundle.min.js"></script>
-        <title>好廟報報 ｜ 台灣民俗宗教文化推廣平台</title>
+        <title>百廟分享 ｜ 台灣民俗宗教文化推廣平台</title>
         <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/pgset.css" rel="stylesheet">
@@ -17,13 +17,13 @@
                 <div class="col-lg-3 col-sm-4"><a href="index.html"><img src="img/logo.webp" class="img-fluid" /></a></div>
                 <div class="col-lg-9 col-sm-8 mt-3">
                     <ul class="list-inline menu">
-                        <li class="list-inline-item pe-3 ms-5"><a href="report.html" class="active">好廟報報</a></li>
+                        <li class="list-inline-item pe-3 ms-5"><a href="report.html">好廟報報</a></li>
                         <li class="list-inline-item pe-3"><a href="direction.html">好廟指南</a></li>
                         <li class="list-inline-item pe-3"><a href="service.html">宗教服務</a></li>
                         <li class="list-inline-item pe-3"><a href="reg.html">地區找廟</a></li>
                         <li class="list-inline-item pe-3"><a href="god.html">好神快搜</a></li>
                         <li class="list-inline-item pe-3"><a href="event.html">宗教快訊</a></li>
-                        <li class="list-inline-item pe-3"><a href="share.html">百廟分享</a></li>
+                        <li class="list-inline-item pe-3"><a href="share.html" class="active">百廟分享</a></li>
                         <li class="list-inline-item pe-3"><a href="about.html">關於我們</a></li>
                     </ul>
                 </div>
@@ -33,202 +33,241 @@
         <div class="container-md main">
             <div class="row">
                 <div class="col-12 mb-3">
-                    <h3 class="text-center"><span class="sp-1 ps-3 pe-3"><i class="bi bi-file-text"></i> 好廟報報</span></h3>
+                    <h3 class="text-center"><span class="sp-1 ps-3 pe-3"><i class="bi bi-share"></i> 百廟分享</span></h3>
                 </div>
             </div>
             <div class="row justify-content-center mb-3">
                 <div class="col-11 m-bn ps-0 pe-0">
-                    <img src="img/event01.webp" class="img-fluid rounded" />
+                    <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/event01.webp" class="img-fluid rounded" />
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/event02.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/event03.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" style="width:auto;" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" style="width:auto;" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                    </div>                    
                 </div>
             </div>
-            <div class="row mb-3 report">
-                <div class="col-12">
-                    <div class="row justify-content-center">
-                        <div class="col-11 ps-0 pe-0">
-                            <div class="row">
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <a href="report_show.html"><img src="img/report01.webp" class="card-img-top" alt="..."></a>
-                                        <div class="card-body">
-                                            <h5 class="card-title"><a href="report_show.html">台灣美廟故事第一屆宮廟小編聯誼會在頭份永貞宮熱鬧登場</a></h5>
-                                            <p class="card-text text-secondary">上週六站長參加一場特別有意義的活動，由台灣美廟故事發起，苗栗頭份永貞宮主辦的「台灣美廟故事第一屆宮廟小編聯誼會」，這場活動聚集了台灣40間宮廟小編，還有資深宮廟紀錄者台灣多奇廟一起參加，這場活動策畫了一年......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+            <div class="row justify-content-center">
+                <div class="col-11 share-menu mb-3 p-1">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="share_msg.html"><i class="bi bi-chat-dots-fill"></i> 信眾參拜體驗與結緣故事</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="share_photo.html"><i class="bi bi-camera"></i> 百廟攝影</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="share_youtube.html"><i class="bi bi-youtube"></i> 百廟影音</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row youtube justify-content-center mb-4">
+                <div class="col-11 text-center">
+                    <h4 class="ft-1"><i class="bi bi-youtube"></i> 網友投稿Youtube</h4>
+                    <div class="row mb-3 text-secondary">
+                        <div class="col-12 text-center rounded p-3 bk-1 temple-info">
+                            若您也想分享關於宗教文化的影片，歡迎您前往<a href="https://www.facebook.com/groups/1609894026019085" target="_blank">「拜好廟求好運投稿社團」</a>分享，我們將會批次更新到網站上。
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11">
+                    <div class="row">
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="share_youtube_show.html"><img src="https://temple.onepg.com.tw/assets/img/video/347.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="share_youtube_show.html">歷經嚴重火災!玄鷲山高邑雲天宮回來啦｜精準預測地震時間地點的國運籤?｜火災後兩個月快速重建｜第一次聽說九轉寶塔｜300公斤巨大關聖帝君開光｜大灣武聖廟.大社青雲宮.高雄意誠堂.鳳山文衡殿.東照山關帝廟</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">狂人JoJo</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report02.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【桃園】桃園慈善宮安座三週年，天公賜福祈安繞境</h5>
-                                            <p class="card-text text-secondary">這次站長要分享上個月底參加桃園慈善宮安座三週年紀念繞境活動的體驗，這次的活動站長前一天就參加體驗繞境的準備活動，如清壇、安五營、請神、登轎等，很多步驟都不能馬虎，尤其今年慈善宮遶境不同以往的車巡方式......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/346.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">高雄這裡也有落難神明！火災之後內殿金光閃閃！！五層樓高的北極金殿！</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">艾琳老師上課囉</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report03.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【桃園大溪】不只求財還幫您送走窮神的迎富送窮廟</h5>
-                                            <p class="card-text text-secondary">站長今天要跟大家介紹一間別具特色的廟宇，這間廟位於桃園市大溪區，鄰近石門水庫，宮廟的名稱也很十分特別叫做「迎富送窮廟」，是不是聽起來就讓人來參拜求財運呢？這間迎富送窮廟雖然從名稱看來應該是主祀......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/345.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">【南臺灣必去】火山大仙寺 : 歷史與文化的交匯點 2023 南瀛八大景.大雄寶殿.大悲出相圖.三寶殿.參徹禪師</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">悟思wusi</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report04.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【新北板橋】大井頭福德祠，板橋在地歷史最悠久的土地公廟</h5>
-                                            <p class="card-text text-secondary">這次站長要跟大家分享一間很有特色的土地公廟「大井頭福德祠」，大井頭福德祠位於新北市板橋區重慶路269巷13號，主祀福德正神，建於清嘉慶十三年，即民國前103年，至今已有200多年的歷史，是板橋最古老的廟宇......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/344.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">鬼提燈是什麼！傳說每年只有一次、南部僅剩這邊有嗎？普渡公燈篙～</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">艾琳老師上課囉</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report05.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【苗栗通宵】癸卯年白沙屯媽祖、山邊媽祖北港進香回鑾紀事</h5>
-                                            <p class="card-text text-secondary">這次分享2023年白沙屯媽祖與山邊媽祖回鑾紀錄，兩位媽祖於2月12日自白沙屯出發，2月17日抵達北港朝天宮，並於2月20日返回白沙屯，全程9天8夜，是台灣知名的宗教活動之一，至今已經傳承了170年之久，今年報名......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/342.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">[新!Johnson將神] ep.1[將子的廟會]ep.2 2023大溪大喜 六廿四 恭祝關聖帝君聖誕千秋千千秋 香火鼎盛萬萬年</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">Johnson將神</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report06.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【台北士林】葫蘆寺壬寅年九聖繞境，台北難得一見繞境祈福活動</h5>
-                                            <p class="card-text text-secondary">站長今天跟大家分享去年拍攝「葫蘆寺-葫蘆堵迎觀音，九聖共賜福」的活動，這次的活動非常特別，因為恰逢葫蘆寺建廟75週年，葫蘆寺邀請了台灣知名的八大宮廟一起繞境賜福，參加繞境的宮廟依序有松山慈惠堂......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/343.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">五通集錦回顧-我們一起努力的曾經</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">埤腳五通宮</a></div>
                                 </div>
-                                <div class="col-12 mb-3 text-center">
-                                    <div class="row justify-content-center">
-                                        <div class="col-12 text-center mt-1 mb-1">
-                                            <img src="img/google_ad.png" />
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row mb-3 justify-content-center">
+                                <div class="col-11 text-center">
+                                    <a href="#"><img src="img/google_ad.png"></a>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report01.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">台灣美廟故事第一屆宮廟小編聯誼會在頭份永貞宮熱鬧登場</h5>
-                                            <p class="card-text text-secondary">上週六站長參加一場特別有意義的活動，由台灣美廟故事發起，苗栗頭份永貞宮主辦的「台灣美廟故事第一屆宮廟小編聯誼會」，這場活動聚集了台灣40間宮廟小編，還有資深宮廟紀錄者台灣多奇廟一起參加，這場活動策畫了一年......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/347.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">歷經嚴重火災!玄鷲山高邑雲天宮回來啦｜精準預測地震時間地點的國運籤?｜火災後兩個月快速重建｜第一次聽說九轉寶塔｜300公斤巨大關聖帝君開光｜大灣武聖廟.大社青雲宮.高雄意誠堂.鳳山文衡殿.東照山關帝廟</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">狂人JoJo</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report02.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【桃園】桃園慈善宮安座三週年，天公賜福祈安繞境</h5>
-                                            <p class="card-text text-secondary">這次站長要分享上個月底參加桃園慈善宮安座三週年紀念繞境活動的體驗，這次的活動站長前一天就參加體驗繞境的準備活動，如清壇、安五營、請神、登轎等，很多步驟都不能馬虎，尤其今年慈善宮遶境不同以往的車巡方式......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/346.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">高雄這裡也有落難神明！火災之後內殿金光閃閃！！五層樓高的北極金殿！</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">艾琳老師上課囉</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report03.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【桃園大溪】不只求財還幫您送走窮神的迎富送窮廟</h5>
-                                            <p class="card-text text-secondary">站長今天要跟大家介紹一間別具特色的廟宇，這間廟位於桃園市大溪區，鄰近石門水庫，宮廟的名稱也很十分特別叫做「迎富送窮廟」，是不是聽起來就讓人來參拜求財運呢？這間迎富送窮廟雖然從名稱看來應該是主祀......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/345.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">【南臺灣必去】火山大仙寺 : 歷史與文化的交匯點 2023 南瀛八大景.大雄寶殿.大悲出相圖.三寶殿.參徹禪師</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">悟思wusi</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report04.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【新北板橋】大井頭福德祠，板橋在地歷史最悠久的土地公廟</h5>
-                                            <p class="card-text text-secondary">這次站長要跟大家分享一間很有特色的土地公廟「大井頭福德祠」，大井頭福德祠位於新北市板橋區重慶路269巷13號，主祀福德正神，建於清嘉慶十三年，即民國前103年，至今已有200多年的歷史，是板橋最古老的廟宇......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/344.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">鬼提燈是什麼！傳說每年只有一次、南部僅剩這邊有嗎？普渡公燈篙～</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">艾琳老師上課囉</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report05.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【苗栗通宵】癸卯年白沙屯媽祖、山邊媽祖北港進香回鑾紀事</h5>
-                                            <p class="card-text text-secondary">這次分享2023年白沙屯媽祖與山邊媽祖回鑾紀錄，兩位媽祖於2月12日自白沙屯出發，2月17日抵達北港朝天宮，並於2月20日返回白沙屯，全程9天8夜，是台灣知名的宗教活動之一，至今已經傳承了170年之久，今年報名......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/342.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">[新!Johnson將神] ep.1[將子的廟會]ep.2 2023大溪大喜 六廿四 恭祝關聖帝君聖誕千秋千千秋 香火鼎盛萬萬年</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">Johnson將神</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report06.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【台北士林】葫蘆寺壬寅年九聖繞境，台北難得一見繞境祈福活動</h5>
-                                            <p class="card-text text-secondary">站長今天跟大家分享去年拍攝「葫蘆寺-葫蘆堵迎觀音，九聖共賜福」的活動，這次的活動非常特別，因為恰逢葫蘆寺建廟75週年，葫蘆寺邀請了台灣知名的八大宮廟一起繞境賜福，參加繞境的宮廟依序有松山慈惠堂......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/343.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">五通集錦回顧-我們一起努力的曾經</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">埤腳五通宮</a></div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="row google-ads mb-4 mt-2 p-0">
-                                        <div class="col-4 text-center">
-                                            <img src="img/event_2_1.webp" class="img-fluid rounded" />
-                                        </div>
-                                        <div class="col-4 text-center">
-                                            <img src="img/event_2_2.webp" class="img-fluid rounded" />
-                                        </div>
-                                        <div class="col-4">
-                                            <img src="img/event_2_3.webp" class="img-fluid rounded" />
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <div class="row google-ads">
+                                <div class="col-4 rounded text-center">
+                                    <img src="img/event_2_1.webp" class="img-fluid rounded" />
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report04.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【新北板橋】大井頭福德祠，板橋在地歷史最悠久的土地公廟</h5>
-                                            <p class="card-text text-secondary">這次站長要跟大家分享一間很有特色的土地公廟「大井頭福德祠」，大井頭福德祠位於新北市板橋區重慶路269巷13號，主祀福德正神，建於清嘉慶十三年，即民國前103年，至今已有200多年的歷史，是板橋最古老的廟宇......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                                <div class="col-4 rounded text-center">
+                                    <img src="img/event_2_2.webp" class="img-fluid rounded" />
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report05.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【苗栗通宵】癸卯年白沙屯媽祖、山邊媽祖北港進香回鑾紀事</h5>
-                                            <p class="card-text text-secondary">這次分享2023年白沙屯媽祖與山邊媽祖回鑾紀錄，兩位媽祖於2月12日自白沙屯出發，2月17日抵達北港朝天宮，並於2月20日返回白沙屯，全程9天8夜，是台灣知名的宗教活動之一，至今已經傳承了170年之久，今年報名......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                                <div class="col-4 rounded text-center">
+                                    <img src="img/event_2_3.webp" class="img-fluid rounded" />
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report06.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【台北士林】葫蘆寺壬寅年九聖繞境，台北難得一見繞境祈福活動</h5>
-                                            <p class="card-text text-secondary">站長今天跟大家分享去年拍攝「葫蘆寺-葫蘆堵迎觀音，九聖共賜福」的活動，這次的活動非常特別，因為恰逢葫蘆寺建廟75週年，葫蘆寺邀請了台灣知名的八大宮廟一起繞境賜福，參加繞境的宮廟依序有松山慈惠堂......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="share_youtube_show.html"><img src="https://temple.onepg.com.tw/assets/img/video/347.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="share_youtube_show.html">歷經嚴重火災!玄鷲山高邑雲天宮回來啦｜精準預測地震時間地點的國運籤?｜火災後兩個月快速重建｜第一次聽說九轉寶塔｜300公斤巨大關聖帝君開光｜大灣武聖廟.大社青雲宮.高雄意誠堂.鳳山文衡殿.東照山關帝廟</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">狂人JoJo</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report04.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【新北板橋】大井頭福德祠，板橋在地歷史最悠久的土地公廟</h5>
-                                            <p class="card-text text-secondary">這次站長要跟大家分享一間很有特色的土地公廟「大井頭福德祠」，大井頭福德祠位於新北市板橋區重慶路269巷13號，主祀福德正神，建於清嘉慶十三年，即民國前103年，至今已有200多年的歷史，是板橋最古老的廟宇......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/346.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">高雄這裡也有落難神明！火災之後內殿金光閃閃！！五層樓高的北極金殿！</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">艾琳老師上課囉</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report05.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【【苗栗通宵】癸卯年白沙屯媽祖、山邊媽祖北港進香回鑾紀事</h5>
-                                            <p class="card-text text-secondary">這次分享2023年白沙屯媽祖與山邊媽祖回鑾紀錄，兩位媽祖於2月12日自白沙屯出發，2月17日抵達北港朝天宮，並於2月20日返回白沙屯，全程9天8夜，是台灣知名的宗教活動之一，至今已經傳承了170年之久，今年報名......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/345.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">【南臺灣必去】火山大仙寺 : 歷史與文化的交匯點 2023 南瀛八大景.大雄寶殿.大悲出相圖.三寶殿.參徹禪師</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">悟思wusi</a></div>
                                 </div>
-                                <div class="col-4 mb-3">
-                                    <div class="card">
-                                        <img src="img/report06.webp" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">【台北士林】葫蘆寺壬寅年九聖繞境，台北難得一見繞境祈福活動</h5>
-                                            <p class="card-text text-secondary">站長今天跟大家分享去年拍攝「葫蘆寺-葫蘆堵迎觀音，九聖共賜福」的活動，這次的活動非常特別，因為恰逢葫蘆寺建廟75週年，葫蘆寺邀請了台灣知名的八大宮廟一起繞境賜福，參加繞境的宮廟依序有松山慈惠堂......<a href="#" class="text-primary">閱讀內容 &raquo;</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/344.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">鬼提燈是什麼！傳說每年只有一次、南部僅剩這邊有嗎？普渡公燈篙～</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">艾琳老師上課囉</a></div>
                                 </div>
-                            </div>                              
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/342.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">[新!Johnson將神] ep.1[將子的廟會]ep.2 2023大溪大喜 六廿四 恭祝關聖帝君聖誕千秋千千秋 香火鼎盛萬萬年</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">Johnson將神</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <a href="#"><img src="https://temple.onepg.com.tw/assets/img/video/343.webp" class="img-fluid mb-1 rounded"></a>
+                                    <h5 class="ps-2 pe-2 mb-0"><a href="#">五通集錦回顧-我們一起努力的曾經</a></h5>
+                                    <div class="youtube-txt ps-2 pe-2">影音來源：<a href="#" class="text-primary">埤腳五通宮</a></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row justify-content-md-center">
@@ -251,7 +290,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>           
             <div class="row mb-4 recommend">
                 <div class="col-12">
                     <h3 class="text-center mb-3"><span class="sp-1 ps-3 pe-3"><i class="bi bi-star-fill"></i> 好廟推薦</span></h3>
