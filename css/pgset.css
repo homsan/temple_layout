@@ -279,7 +279,7 @@ a:hover{
     color: #444;
     border-bottom: 2px solid #fff;
 }
-.temple .temple-menu a:hover{
+.temple .temple-menu a:hover, .temple .temple-menu .active{
     color: #c92929;
     border-bottom: 2px solid #c92929;
 }
