@@ -62,6 +62,14 @@ a:hover{
     border-bottom: 2px solid #c92929;
     padding-bottom: 5px;
 }
+.header-title{
+    border-top: 1px solid #ccc;
+    background: #efefef;
+    color: #9a0000;
+}
+.header-title h3 .sp-1{
+    border-bottom: 2px solid #ccc;
+}
 .b-bn{
     border-top: 2px solid #ccc;
 }
@@ -239,6 +247,20 @@ a:hover{
 }
 .main .photo .photo-alt h5{
     font-size: 1rem;
+}
+.main .direction_card .direction_card_txt{
+    color: #666;
+    font-size: 1.1rem;
+}
+.main .about{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.main .about a{
+    color: #069;
+}
+.main .about a:hover{
+    color: #9a0000;
 }
 
 .temple .title{
