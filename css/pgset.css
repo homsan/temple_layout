@@ -2,7 +2,7 @@ body{
     color: #444;
     font-family: "微軟正黑體";
 }
-h3{
+h1, h2, h3, h4, h4, h5{
     font-weight: bold;
 }
 a{
@@ -39,6 +39,9 @@ a:hover{
 .br-2{
     border-bottom: 1px solid #555;
 }
+.undis{
+    display: none;
+}
 .header .alt{
     font-size: 0.9rem;
     color: #666;
@@ -73,24 +76,14 @@ a:hover{
 .b-bn{
     border-top: 2px solid #ccc;
 }
-.main h3{
+.main h2, .main h3{
     font-size: 1.6rem;
 }
-.main h3 .sp-1{
+.main .sp-1{
     border-bottom: 2px solid #ccc;
 }
-.main h3 .sp-2{
+.main .sp-2{
     border-bottom: 2px solid #c92929;
-}
-.main .search .search-bar .in-sty1{
-    border:8px solid #ffc107;
-    border-radius: 10px;
-}
-.main .search .menu .sp-1{
-    background-color: #ffc107;
-}
-.main .search .menu{
-    font-weight: bold;
 }
 .main .recommend .t-1{
     font-size: 1rem;
@@ -114,21 +107,6 @@ a:hover{
     font-size: 0.9rem;
     top: 145px;
     left: 5px;
-}
-.main .recommend .card .photo .tag .bk-1{
-    background: #06F;
-    color: #fff;
-    padding: 3px 5px 2px 5px;
-    border-radius: 10px;
-    float: left;
-    margin-right: 3px;
-}
-.main .recommend .card .photo .tag .bk-2{
-    background: #9a0000;
-    color: #fff;
-    padding: 3px 5px 2px 5px;
-    border-radius: 10px;
-    float: left;
 }
 .main .direction .card-body{
     color: #efefef;
@@ -285,6 +263,57 @@ a:hover{
 }
 .main .about a:hover{
     color: #9a0000;
+}
+.main .temple-list .list-txt{
+    line-height: 1.8rem;
+    font-size: #999;
+}
+.main .temple-list .list-txt h4 a{
+    color: #9a0000;
+}
+.main .temple-list .list-txt a{
+    color:#069;
+}
+.main .temple-list .list-txt a:hover{
+    color: #9a0000;
+}
+.main .temple-list .list-txt .temple-alt{
+    height: 80px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    color:#666;
+}
+.main .temple-list .temple-box{
+    width: 80px;
+    height: 80px;
+    float: right;
+    color: #fff;
+    border-radius: 100px;
+}
+.main .temple-list .temple-box .ft-1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.main .temple-list .temple-box .ft-2{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #fff;
+}
+.main .search-tool{
+    font-size: 0.9rem;
+}
+.main .search-tool .active{
+    color:#069;
+    font-weight: bold;
+}
+.search-box .in-sty1{
+    border: 3px solid #ffc107;
+}
+.search-link{
+    font-size: 0.9rem;
 }
 
 .temple .title{
