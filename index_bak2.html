@@ -15,19 +15,15 @@
         <div class="container header">
             <div class="row mb-2">
                 <div class="col-12 alt text-end mt-1 mb-1">您好，歡迎來到拜好廟求好運，已累積 <span class="ft-1">44萬人 </span>造訪本站查詢宮廟資訊，已刊登了 <span class="ft-1">4,454</span> 間廟宇資料。</div>
-                <div class="col-lg-3 col-md-4"><a href="index.html"><img src="img/logo.webp" class="img-fluid" /></a></div>
-                <div class="col-lg-6 col-md-6 mt-3">
+                <div class="col-lg-3 col-sm-4"><a href="index.html"><img src="img/logo.webp" class="img-fluid" /></a></div>
+                <div class="col-lg-9 col-sm-8 mt-3">
                     <ul class="list-inline menu">
-                        <li class="list-inline-item pe-3"><a href="god_list.html">好廟快搜</a></li>
+                        <li class="list-inline-item pe-3 ms-5"><a href="god_list.html">好廟快搜</a></li>
                         <li class="list-inline-item pe-3"><a href="report.html">站長推薦</a></li>
                         <li class="list-inline-item pe-3"><a href="event.html">宗教快訊</a></li>
                         <li class="list-inline-item pe-3"><a href="share.html">百廟分享</a></li>
                         <li class="list-inline-item pe-3"><a href="#">拜拜百科</a></li>
                     </ul>
-                </div>
-                <div class="col-lg-3 col-md-2 text-end pt-1">
-                    <a href="#" class="ft-fb"><i class="bi bi-facebook"></i> 加入拜好廟粉絲團</a><br />
-                    <a href="#" class="ft-line"><i class="bi bi-line"></i> 宮廟專用LINE官方帳號</a>
                 </div>
             </div>
         </div>
@@ -90,299 +86,71 @@
                 </div>
             </div>
         </div>
-        <div class="container-md main mb-5">
-            <div class="row justify-content-center">
-                <div class="col-11">
-                    <div class="row bk-1 pt-4 justify-content-center">
-                        <div class="col-12">
-                            <h2 class="text-center mb-3"><span class="sp-1 ps-3 pe-3"><i class="bi bi-search"></i> 好廟快搜</span></h2>
+        <div class="container main">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="text-center mb-3"><span class="sp-1 ps-3 pe-3"><i class="bi bi-search"></i> 好廟搜尋</span></h2>
+                    <div class="row justify-content-center">
+                        <div class="col-10 text-center search-box">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control in-sty1"  placeholder="請輸入您要找尋的宮廟名稱" aria-label="請輸入您要找尋的宮廟名稱" aria-describedby="button-addon2">
+                                <button class="btn btn-warning " type="button" id="button-addon2">搜尋</button>
+                            </div>
                         </div>
-                        <div class="col-11 mb-3 search-tool">
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">選擇縣市</div>
-                                <div class="col-1"><a href="#" class="ft-1">全台灣</a></div>
-                                <div class="col-10 pe-0">
-                                    <ul class="list-inline mb-0">
-                                        <li class="list-inline-item mb-2"><a href="#">台南市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">新北市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">高雄市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">彰化縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">台中市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">雲林縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">台北市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">屏東縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">桃園市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">南投縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">嘉義縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">宜蘭縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">苗栗縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">花蓮縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">金門縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">澎湖縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">新竹市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">新竹縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">基隆市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">嘉義市</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">台東縣</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">連江縣</a></li>
-                                    </ul>
+                        <div class="col-10 search-link">
+                            <div class="row mb-2">
+                                <div class="col-1 pt-1 text-center">地區搜尋</div>
+                                <div class="col-11">
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">台南市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">新北市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">高雄市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">彰化市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">台中市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">台北市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">屏東縣</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">桃園市</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">南投縣</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">更多地區...</a>
                                 </div>
                             </div>
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">主祀神祇</div>
-                                <div class="col-1"><a href="#" class="ft-1">不限</a></div>
-                                <div class="col-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">天上聖母/媽祖</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox2">福德正神/土地公</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox3">玄天上帝/上帝公</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox4">觀世音菩薩/觀音佛祖</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox5">關聖帝君/文衡聖帝</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox6">釋迦牟尼佛</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox7">保生大帝/大道公</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox8">中壇元帥/太子爺</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox9">五府千歲</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox10">池府千歲/池府三千歲</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox10">三山國王</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox11">瑤池金母/西王母娘娘</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox11">三府千歲</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox12">玉皇大帝/玉皇上帝/天公祖</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox13">城隍爺/霞海城隍</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox13">神農大帝/五穀大帝</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox14">清水祖師/清水二祖師</label>
-                                    </div>
+                            <div class="row mb-2">
+                                <div class="col-1 pt-1 text-center">主祀神祇</div>
+                                <div class="col-11">
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">天上聖母/媽祖</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">福德正神/土地公</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">玄天上帝/上帝公</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">觀世音菩薩/觀音佛祖</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">關聖帝君/文衡聖帝</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">釋迦牟尼佛</a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-1 mb-1">更多神祇...</a>
                                 </div>
                             </div>
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">祈願目的</div>
-                                <div class="col-1"><a href="#" class="ft-1">不限</a></div>
-                                <div class="col-10">
-                                    <ul class="list-inline mb-0">
-                                        <li class="list-inline-item mb-2"><a href="#">祈求學業/考運</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">祈求事業/財運/工作</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">祈求姻緣/貴人</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">祈求求子/順產</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">祈求行車/出遊</a></li>
-                                        <li class="list-inline-item mb-2"><a href="#">祈求健康/求醫</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">點燈服務</div>
-                                <div class="col-1"><a href="#" class="ft-1">不限</a></div>
-                                <div class="col-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a01" value="option1">
-                                        <label class="form-check-label" for="a01">光明燈</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a02" value="option1">
-                                        <label class="form-check-label" for="a02">太歲燈</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a03" value="option1">
-                                        <label class="form-check-label" for="a03">姻緣燈</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a04" value="option1">
-                                        <label class="form-check-label" for="a04">財神燈</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a05" value="option1">
-                                        <label class="form-check-label" for="a05">夫妻和合燈</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a06" value="option1">
-                                        <label class="form-check-label" for="a06">文昌燈</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="a07" value="option1">
-                                        <label class="form-check-label" for="a07">藥師燈</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">宗教儀式</div>
-                                <div class="col-1"><a href="#" class="ft-1">不限</a></div>
-                                <div class="col-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b11" value="option1">
-                                        <label class="form-check-label" for="b11">安太歲</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b01" value="option1">
-                                        <label class="form-check-label" for="b01">祭改/收驚</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b02" value="option1">
-                                        <label class="form-check-label" for="b02">問事</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b03" value="option1">
-                                        <label class="form-check-label" for="b03">驅邪</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b04" value="option1">
-                                        <label class="form-check-label" for="b04">命名/改名</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b05" value="option1">
-                                        <label class="form-check-label" for="b05">批流年</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b06" value="option1">
-                                        <label class="form-check-label" for="a05">合婚/嫁娶</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b08" value="option1">
-                                        <label class="form-check-label" for="a08">補/改運</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b09" value="option1">
-                                        <label class="form-check-label" for="a09">淨車</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b10" value="option1">
-                                        <label class="form-check-label" for="a10">扶鸞</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="b11" value="option1">
-                                        <label class="form-check-label" for="b11">觀落陰</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">堪輿/風水</div>
-                                <div class="col-1"><a href="#" class="ft-1">不限</a></div>
-                                <div class="col-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c01" value="option1">
-                                        <label class="form-check-label" for="c01">擇日</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c02" value="option1">
-                                        <label class="form-check-label" for="c02">公司命名</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c03" value="option1">
-                                        <label class="form-check-label" for="c03">選址</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c04" value="option1">
-                                        <label class="form-check-label" for="c04">動土</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c05" value="option1">
-                                        <label class="form-check-label" for="c05">安座</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c06" value="option1">
-                                        <label class="form-check-label" for="c05">請神</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c07" value="option1">
-                                        <label class="form-check-label" for="c07">退神</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c08" value="option1">
-                                        <label class="form-check-label" for="c08">陽宅</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c09" value="option1">
-                                        <label class="form-check-label" for="c09">開光</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c10" value="option1">
-                                        <label class="form-check-label" for="c10">安神位</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-3 border-bottom">
-                                <div class="col-1 pe-0">科儀法會</div>
-                                <div class="col-1"><a href="#" class="ft-1">不限</a></div>
-                                <div class="col-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="d01" value="option1">
-                                        <label class="form-check-label" for="d01">禮斗/拜斗</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="d02" value="option1">
-                                        <label class="form-check-label" for="d02">祈福法會</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="d04" value="option1">
-                                        <label class="form-check-label" for="d04">解冤釋結科</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="d05" value="option1">
-                                        <label class="form-check-label" for="d05">遶境</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="d06" value="option1">
-                                        <label class="form-check-label" for="d05">進香</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c07" value="option1">
-                                        <label class="form-check-label" for="c07">普渡</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="c08" value="option1">
-                                        <label class="form-check-label" for="c08">放水燈</label>
-                                    </div>
+                            <div class="row mb-2">
+                                <div class="col-1 pt-1 text-center">祈願目的</div>
+                                <div class="col-11">
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">學業/考運</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">事業/財運/工作</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">姻緣/貴人</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">求子/順產</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">行車/出遊</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">健康/求醫</a>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">立即查詢</button>
+                                <div class="col-1 pt-1 text-center">宗教服務</div>
+                                <div class="col-11">
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">點燈服務</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">祭改/收驚</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">姻緣燈</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">命名/改名</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">合婚/嫁娶</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">補/改運</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">安神位</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">祈福法會</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">普渡</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">財神燈</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">安太歲</a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm me-1 mb-1">更多服務......</a>
                                 </div>
                             </div>
                         </div>
@@ -960,21 +728,22 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-11 pt-3 br-2">
-                    <div class="row justify-content-center">                
-                        <div class="col-2">
+                    <div class="row">                
+                        <div class="col-3">
                             <dl>
-                                <dt>拜好廟服務</dt>
+                                <dt>找宮廟</dt>
                                 <dd>
                                     <ul class="list-unstyled">
-                                        <li><a href="#"><i class="bi bi-search"></i> 好廟快搜</a></li>
-                                        <li><a href="#"><i class="bi bi-file-text"></i> 站長推薦</a></li>
-                                        <li><a href="#"><i class="bi bi-calendar3"></i> 宮廟活動</a></li>
-                                        <li><a href="#"><i class="bi bi-newspaper"></i> 宗教新聞</a></li>
+                                        <li><a href="#"><i class="bi bi-volume-up-fill"></i> 好廟報報</a></li>
+                                        <li><a href="#"><i class="bi bi-signpost-split"></i> 好廟指南</a></li>
+                                        <li><a href="#"><i class="bi bi-compass"></i> 地區找廟</a></li>
+                                        <li><a href="#"><i class="bi bi-bookmark-star"></i> 好神快搜</a></li>
+                                        <li><a href="#"><i class="bi bi-universal-access-circle"></i> 宗教服務</a></li>
                                     </ul>
                                 </dd>
                             </dl>
                         </div>
-                        <div class="col-2">
+                        <div class="col-3">
                             <dl>
                                 <dt>宗教快訊</dt>
                                 <dd>
@@ -985,36 +754,27 @@
                                 </dd>
                             </dl>
                         </div>
-                        <div class="col-2">
+                        <div class="col-3">
                             <dl>
                                 <dt>百廟分享</dt>
                                 <dd>
                                     <ul class="list-unstyled">
                                         <li><a href="#"><i class="bi bi-chat-dots"></i> 信眾參拜體驗</a></li>
                                         <li><a href="#"><i class="bi bi-camera"></i> 百廟攝影</a></li>
-                                        <li><a href="#"><i class="bi bi-youtube"></i> 百廟影音</a></li>
+                                        <li><a href="#"><i class="bi bi-youtube"></i> 百廟影音</a></li>                                
+                                        <li><a href="#"><i class="bi bi-line"></i> 聯絡我們</a></li>
                                     </ul>
                                 </dd>
                             </dl>
                         </div>
-                        <div class="col-2">
+                        <div class="col-3">
                             <dl>
                                 <dt>網站介紹</dt>
                                 <dd>
                                     <ul class="list-unstyled">
                                         <li><a href="#"><i class="bi bi-cup-hot-fill"></i> 關於我們</a></li>
                                         <li><a href="friend.html"><i class="bi bi-people-fill"></i> 友情連結</a></li>
-                                        <li><a href="#"><i class="bi bi-line"></i> 聯絡我們</a></li>
-                                        <!--<li><a href="#"><i class="bi bi-tools"></i> 公告</a></li>-->
-                                    </ul>
-                                </dd>
-                            </dl>
-                        </div>
-                        <div class="col-2">
-                            <dl>
-                                <dt>相關連結</dt>
-                                <dd>
-                                    <ul class="list-unstyled">
+                                        <li><a href="#"><i class="bi bi-tools"></i> 公告</a></li>
                                         <li><a href="https://www.facebook.com/twtempleonepg" target="_blank"><i class="bi bi-volume-up-fill"></i> Facebook</a></li>
                                         <li><a href="https://www.instagram.com/templeonepg/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
                                     </ul>
