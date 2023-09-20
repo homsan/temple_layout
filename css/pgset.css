@@ -33,6 +33,7 @@ a:hover{
 .ft-line{
     color: #00c155;
 }
+
 .bk-1{
     background-color: #efefef;
     border: none;
@@ -41,6 +42,18 @@ a:hover{
 .bk-2{
     background: #ccc;
     color: #666;
+}
+.bk-fb{
+    background: #0064da;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 40%;
+}
+.bk-line{
+    background: #00c155;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 40%;
 }
 .br-1{
     border-bottom: 1px dotted #ccc;
@@ -81,6 +94,9 @@ a:hover{
 }
 .header-title h3 .sp-1{
     border-bottom: 2px solid #ccc;
+}
+.header .sp-1{
+    font-size: 1.6rem;
 }
 .b-bn{
     border-top: 2px solid #ccc;

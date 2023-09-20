@@ -1,6 +1,7 @@
 body{
     color: #444;
     font-family: "微軟正黑體";
+    background: #fff;
 }
 h1, h2, h3, h4, h4, h5{
     font-weight: bold;
@@ -50,10 +51,10 @@ h1{
     color: #555;
 }
 .obj-btn{
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 .obj-btn img{
-    width: 60%;
+    width: 68%;
 }
 .obj-btn a{
     text-decoration: none;
@@ -66,20 +67,20 @@ h1{
     overflow: hidden;
 }
 .recommend h5{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .recommend h6{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .recommend{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .recommend .card-body{
-    height: 100px;
+    height: 130px;
     overflow: hidden;
 }
 .msg h5{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .msg .card-text{
     font-size: 0.9rem;
@@ -95,6 +96,26 @@ h1{
 .info{
     font-size: 0.9rem;
 }
+.event, .news{
+    font-size: 1rem;
+}
+.event a{
+    color: #999;;
+}
+.news a{
+    color: #666;
+}
+.news .ellipsis{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about h3{
+    font-size: 1.2rem;
+}
+.about h4{
+    font-size: 1rem;
+}
 .sponsor h5{
     font-size: 1.1rem;
 }
@@ -108,16 +129,20 @@ h1{
 }
 .footer{
     background: #efefef;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     color: #666;
 }
 .footer-btn{
-    background: #9a0000;
-    color: #fff;
+    background: #efefef;
+    color: #444;
+    border-top: 1px solid #ccc;
 }
 .footer-btn .sp-1{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .footer-btn a{
-    color: #fff;
+    color: #444;
+}
+.mt-6{
+    margin-top: 65px;
 }
