@@ -1,0 +1,123 @@
+body{
+    color: #444;
+    font-family: "微軟正黑體";
+}
+h1, h2, h3, h4, h4, h5{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    display: none;
+}
+.ft-fb{
+    color: #0064da;
+}
+.ft-line{
+    color: #00c155;
+}
+.ft-1{
+    color: #9a0000;
+}
+.ft-2{
+    color: #666;
+}
+.ft-3{
+    color: #e78d35;
+}
+.ft-4{
+    color: #e8569f;
+}
+.ft-5{
+    color: #444;
+}
+.bk-1{
+    background: #efefef;
+    border-radius: 10px;
+}
+
+.header .menu .br-sty1{
+    color: #9a0000;
+    border: 2px solid #9a0000;
+}
+.header .menu-txt{
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 1px dotted #ccc;
+}
+.header .menu-txt .nav-link{
+    color: #555;
+}
+.obj-btn{
+    font-size: 0.8rem;
+}
+.obj-btn img{
+    width: 60%;
+}
+.obj-btn a{
+    text-decoration: none;
+}
+.report .card-text{
+    max-height: 180px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.recommend h5{
+    font-size: 0.9rem;
+}
+.recommend h6{
+    font-size: 0.8rem;
+}
+.recommend{
+    font-size: 0.8rem;
+}
+.recommend .card-body{
+    height: 100px;
+    overflow: hidden;
+}
+.msg h5{
+    font-size: 0.9rem;
+}
+.msg .card-text{
+    font-size: 0.9rem;
+    height: 88px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.info h3{
+    font-size: 1.1rem;
+}
+.info{
+    font-size: 0.9rem;
+}
+.sponsor h5{
+    font-size: 1.1rem;
+}
+.sponsor .sponsor-txt{
+    font-size: 0.9rem;
+    height: 88px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.footer{
+    background: #efefef;
+    font-size: 0.8rem;
+    color: #666;
+}
+.footer-btn{
+    background: #9a0000;
+    color: #fff;
+}
+.footer-btn .sp-1{
+    font-size: 2rem;
+}
+.footer-btn a{
+    color: #fff;
+}
