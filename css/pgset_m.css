@@ -33,6 +33,9 @@ h1{
 .ft-5{
     color: #444;
 }
+.ft-6{
+    font-size: 0.9rem;
+}
 .bk-1{
     background: #efefef;
     border-radius: 10px;
@@ -81,6 +84,7 @@ h1{
 }
 .msg h5{
     font-size: 1rem;
+    color: #444;
 }
 .msg .card-text{
     font-size: 0.9rem;
@@ -127,6 +131,44 @@ h1{
     -webkit-line-clamp: 4;
     overflow: hidden;
 }
+.share-btn{
+    color:#fff;
+}
+.share-photo .photo-alt{
+    font-size: 0.8rem;
+}
+.share-photo h5{
+    font-size: 1rem;
+}
+.share-youtube h5{
+    font-size: 1rem;
+}
+.share-youtube .youtube-alt h5{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 48px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.share-youtube .youtube-txt{
+    font-size: 0.9rem;
+}
+.youtube-temple{
+    font-size: 0.9rem;
+}
+.youtube-temple h5{
+    font-size: 1rem;
+}
+.youtube-show{
+    font-size: 1rem;
+}
+.youtube-show-alt{
+    font-size: 0.9rem;
+    color: #666;
+}
+
 .footer{
     background: #efefef;
     font-size: 0.95rem;
