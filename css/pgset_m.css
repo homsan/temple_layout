@@ -168,7 +168,23 @@ h1{
     font-size: 0.9rem;
     color: #666;
 }
-
+.temple-news h5{
+    font-size: 1rem;
+}
+.temple-news{
+    font-size: 0.9rem;
+    color: #666;
+}
+.news-alt{
+    color: #999;
+}
+.news-txt{
+    height: 65px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
 .footer{
     background: #efefef;
     font-size: 0.95rem;
