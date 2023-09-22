@@ -36,6 +36,9 @@ h1{
 .ft-6{
     font-size: 0.9rem;
 }
+.ft-7{
+    color: #17a2b8;
+}
 .bk-1{
     background: #efefef;
     border-radius: 10px;
@@ -109,7 +112,7 @@ h1{
 .news a{
     color: #666;
 }
-.news .ellipsis{
+.ellipsis{
     overflow:hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -185,6 +188,42 @@ h1{
     -webkit-line-clamp: 3;
     overflow: hidden;
 }
+.report-list h4{
+    font-size: 1.1rem;
+}
+.report-list .txt{
+    font-size:0.9rem;
+    height: 65px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.report-show-alt{
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.temple-photo .b-photo{
+    position: relative;
+    overflow: hidden;
+}
+.temple-photo .b-photo .photo-alt{
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.temple-msg{
+    font-size: 1rem;
+}
+
 .footer{
     background: #efefef;
     font-size: 0.95rem;
