@@ -223,6 +223,37 @@ h1{
 .temple-msg{
     font-size: 1rem;
 }
+.temple-header .tag{
+    background: #efefef;
+    font-size: 0.8rem;
+    color: #555;
+    border-radius: 10px;
+    padding: 0 8px 0 8px;
+    font-weight: normal;
+}
+.temple-report-txt{
+    height: 70px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.temple-report h5{
+    font-size: 1rem;
+}
+.temple-list h4{
+    font-size: 1rem;
+}
+.temple-list-txt{
+    font-size: 0.9rem;
+}
+.temple-list-txt .tag{
+    font-size: 0.8rem;
+}
+.search-bar{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
 
 .footer{
     background: #efefef;

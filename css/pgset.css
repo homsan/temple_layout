@@ -469,6 +469,14 @@ a:hover{
 .temple .temple-msg-show{
     font-size: 1.1rem;
 }
+.temple .tag{
+    background: #efefef;
+    font-size: 0.9rem;
+    color: #555;
+    border-radius: 10px;
+    padding: 0 8px 0 8px;
+    font-weight: normal;
+}
 .temple-vip .god img{
     border-radius: 200px;
 }
